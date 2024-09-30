@@ -44,8 +44,8 @@ dir_y = 0
 
 while running:
     clear_canvas()
-    grass.draw(1280, 1024)
-    character.clip_draw(frame * 100, 100, 100, 100, x, y)
+    grass.draw(400,300)
+    character.clip_draw(frame*(534//4), 100, 100, 100, x, y)
     update_canvas()
     handle_events()
     frame = (frame + 1) % 8
